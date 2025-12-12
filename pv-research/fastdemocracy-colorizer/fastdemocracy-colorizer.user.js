@@ -7,7 +7,9 @@
 // @author      onteia
 // @description Adds a colored background element based on legislator's party
 // @require     https://code.jquery.com/jquery-3.7.1.min.js
-// 
+// @updateURL   https://github.com/Onteia/userscripts/raw/refs/heads/main/pv-research/fastdemocracy-colorizer/fastdemocracy-colorizer.user.js
+// @downloadURL https://github.com/Onteia/userscripts/raw/refs/heads/main/pv-research/fastdemocracy-colorizer/fastdemocracy-colorizer.user.js
+// @supportURL  https://github.com/Onteia/userscripts/issues
 // ==/UserScript==
 
 
