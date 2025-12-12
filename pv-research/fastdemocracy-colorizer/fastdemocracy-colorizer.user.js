@@ -3,7 +3,7 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://fastdemocracy.com/*
 // @grant       none
-// @version     1.0
+// @version     1.0.1
 // @author      onteia
 // @description Adds a colored background element based on legislator's party
 // @require     https://code.jquery.com/jquery-3.7.1.min.js
