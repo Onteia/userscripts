@@ -40,14 +40,16 @@ function setColor(sponsor, url) {
 
         $(sponsor).parent().get(0).style = `background-color: ${PartyToColorMap[party]};border-radius: 8px;padding:4px;`;
       }
-    }).responseText;
+    });
 }
 
 function colorBasedOnParty() {
   const sponsors = ($(".billcard-sponsor-name").length) ? $(".billcard-sponsor-name") : $(".sponsor-name-bill");
 
   for(const sponsor of sponsors) {
-    const sponsorUrl = $(sponsor).parent().get(0).href ?? $(sponsor).children().eq(0).get(0).href;
+    const sponsorUrl = $(sponsor).parent().get(0).href ?? $(sponsor).children().eq(0).get(0)?.href;
+    if(sponsorUrl === undefined) continue;
+
     setColor(sponsor, sponsorUrl);
   }
 }
