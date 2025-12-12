@@ -55,7 +55,7 @@ function colorBasedOnParty() {
 }
 
 function main() {
-  const page = $('#page');
+  const page = $('#content');
   const config = { attributes: true, childList: true, subtree: true };
   const callback = function (mutationList, observer) {
     for(const mutation of mutationList) {
