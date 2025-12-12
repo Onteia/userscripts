@@ -3,7 +3,7 @@
 Userscript that adds a background color to Legislators on [FastDemocracy](https://fastdemocracy.com).
 
 # installation
-Make sure you have [Violentmonkey](https://violentmonkey.github.io/), [Tampermonkey](https://www.tampermonkey.net/), or some other userscript manager.
+Make sure you have a userscript manager extension such as [Violentmonkey](https://violentmonkey.github.io/) or [Tampermonkey](https://www.tampermonkey.net/).
 
 Once you have one of those, [install fastdemocracy-colorizer here](https://github.com/Onteia/userscripts/raw/refs/heads/main/pv-research/fastdemocracy-colorizer/fastdemocracy-colorizer.user.js)
 
